@@ -1,53 +1,86 @@
 body {
     font-family: helvetica;
     margin: 0;
-  }
-  .container{
-    width :100%;
-  }
-  .top-wrapper{
+}
+
+.container {
+    width: 100%;
+}
+
+.top-wrapper {
     text-align: center;
-  }
-  .profile{
+}
+
+.profile {
     float: left;
     margin-left: 10px;
-  }
-  .profile img{
+}
+
+.profile img {
     border-radius: 50%;
     width: 50px;
-  }
-  
-  /* main1 */
-  .lesson-wrapper{
+}
+
+
+/* main1 */
+
+.lesson-wrapper {
     height: 500px;
     padding-bottom: 80px;
     background-color: aliceblue;
-  }
-  
-  
-  /* main2 */
-  .main2 {
+}
+
+
+/* main2 */
+
+.main2 {
     border-bottom: 3px solid cadetblue;
-    padding-bottom: 400px;
+    padding-bottom: 20px;
     text-align: center;
-  }
-  
-  .team-members{
+}
+
+.heading h1 {
+    font-family: serif;
+    font-size: xx-large;
+    font-weight: 500;
+    color: cadetblue;
+    margin: 40px 0px;
+}
+
+.team-members {
     /* item bertumpuk horizontal : buat di class yang membungkus item */
-    display: flex; 
-  }
-  
-  .photo-member{
+    display: flex;
     text-align: center;
+}
+
+.photo-member {
     /* mengisi seluruh ruang lebar milik element induknya. */
     flex: auto;
-    margin: 0 auto;
-  }
-  
-  .photo-member h4{
-  font-weight: 400;
-  font-size: 22px;
-  color: #2d3033;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
+    /* display: inline-block; */
+}
+
+.photo-member h4 {
+    text-align: center;
+    font-family: initial;
+    font-size: large;
+    font-weight: bolder;
+    color: cadetblue;
+    margin-bottom: 1px;
+    margin-top: 4px;
+}
+
+.photo-member p {
+    text-align: center;
+    font-family: auto;
+    color: black;
+    font-size: medium;
+}
+
+.socmed {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.socmed a {
+    margin-right: 20px;
+}
