@@ -1,0 +1,30 @@
+@media(max-width: 1200px){
+    .team-members {
+        flex-wrap: wrap;
+    }
+
+    .team-members img{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 680px){
+    .team-members {
+        flex-direction: column;
+    }
+
+    .team-members img{
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 350px){
+    .team-members {
+        flex-direction: column;
+    }
+
+    .team-members img{
+        margin: 0 auto;
+    }
+}

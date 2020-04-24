@@ -41,7 +41,6 @@ body {
     text-align: center;
     /* mengisi seluruh ruang lebar milik element induknya. */
     flex: auto;
-    width: 20%;
     margin: 0 auto;
   }
   
